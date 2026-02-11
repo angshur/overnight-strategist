@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 const ACME_PRESET = `Goal: Increase qualified new-patient leads for Acme Dental without lowering lead quality.
