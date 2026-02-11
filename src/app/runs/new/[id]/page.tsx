@@ -60,7 +60,8 @@ export default async function RunPage({ params }: { params: { id: string } }) {
         <div className="flex items-center justify-between">
           <h2 className="font-semibold">Morning Brief</h2>
 
-          <form action={`/api/runs/${runId}/run-now`} method="post">
+	  <form action={`/runs/${runId}/morning`} method="get">
+
             <button className="bg-black text-white rounded-md px-3 py-2 text-sm" type="submit">
               Run now (mock)
             </button>
